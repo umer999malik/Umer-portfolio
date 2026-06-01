@@ -14,3 +14,32 @@
   border-radius: 18px;
   display: block;
 }
+.hero {
+  min-height: 85vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 80px 6vw !important;
+}
+
+.hero-copy {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+}
+
+.hero h1 {
+  margin: 0 auto !important;
+  max-width: 950px !important;
+  font-size: clamp(52px, 8vw, 110px) !important;
+  line-height: 0.9 !important;
+}
+
+.subtext {
+  margin: 28px auto 0 !important;
+  max-width: 650px !important;
+}
+
+.hero-actions {
+  justify-content: center !important;
+}
