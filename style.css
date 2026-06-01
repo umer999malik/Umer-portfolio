@@ -19,3 +19,32 @@
   transform: scale(1.04);
   filter: saturate(1.15) contrast(1.12);
 }
+.hero {
+  min-height: 85vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  padding: 80px 6vw !important;
+}
+
+.hero-copy {
+  max-width: 1050px !important;
+  margin: 0 auto !important;
+}
+
+.hero h1 {
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+}
+
+.subtext {
+  margin: 28px auto 0 !important;
+  text-align: center !important;
+}
+
+.hero-actions {
+  justify-content: center !important;
+}
