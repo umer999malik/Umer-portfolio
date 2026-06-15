@@ -1,4 +1,5 @@
 const glow = document.querySelector('.cursor-glow');
+
 window.addEventListener('mousemove', (e) => {
   if (!glow) return;
   glow.style.left = e.clientX + 'px';
@@ -25,9 +26,11 @@ document.querySelectorAll('.thumb img').forEach((img) => {
 });
 
 closeBtn.addEventListener('click', () => lightbox.classList.remove('active'));
+
 lightbox.addEventListener('click', (e) => {
   if (e.target === lightbox) lightbox.classList.remove('active');
 });
+
 document.querySelectorAll(".thumb").forEach((card) => {
   card.addEventListener("mousemove", (e) => {
     const rect = card.getBoundingClientRect();
@@ -49,8 +52,10 @@ document.querySelectorAll(".thumb").forEach((card) => {
     card.style.transform =
       "rotateX(0deg) rotateY(0deg) scale(1)";
   });
+});
+
 function switchThumb(btn, imageSrc) {
-    const card = btn.closest('.ab-thumb');
-    const img = card.querySelector('img');
-    img.src = imageSrc;
+  const card = btn.closest('.ab-thumb');
+  const img = card.querySelector('img');
+  img.src = imageSrc;
 }
