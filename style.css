@@ -160,3 +160,39 @@ footer{position:relative;z-index:2;padding:30px 6vw;color:#888;border-top:1px so
   font-weight: 900;
   font-size: 13px;
 }
+.portfolio-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.portfolio-item .thumb {
+  margin-bottom: 0;
+}
+
+.video-info {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.video-info h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.video-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.channel {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.subs {
+  margin-left: 8px;
+}
