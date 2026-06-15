@@ -49,4 +49,8 @@ document.querySelectorAll(".thumb").forEach((card) => {
     card.style.transform =
       "rotateX(0deg) rotateY(0deg) scale(1)";
   });
-});
+function switchThumb(btn, imageSrc) {
+    const card = btn.closest('.ab-thumb');
+    const img = card.querySelector('img');
+    img.src = imageSrc;
+}
