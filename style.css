@@ -634,3 +634,39 @@ footer {
   background:#fff;
   color:#000;
 }
+.portfolio-wrapper {
+  position: relative;
+}
+
+.gallery-limited {
+  max-height: 780px;
+  overflow: hidden;
+}
+
+.gallery-limited.expanded {
+  max-height: none;
+}
+
+.gallery-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 70px;
+  height: 180px;
+  background: linear-gradient(to bottom, transparent, #050505);
+  pointer-events: none;
+}
+
+.view-more-btn {
+  position: relative;
+  z-index: 5;
+  display: block;
+  margin: -40px auto 0;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 999px;
+  padding: 14px 28px;
+  font-weight: 900;
+  cursor: pointer;
+}
