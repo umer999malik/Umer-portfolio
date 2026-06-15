@@ -610,3 +610,27 @@ footer {
     cursor:pointer;
     font-weight:800;
 }
+.filter-buttons{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:40px;
+}
+
+.filter-btn{
+  padding:12px 22px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.15);
+  background:transparent;
+  color:#fff;
+  cursor:pointer;
+  font-weight:600;
+  transition:.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active{
+  background:#fff;
+  color:#000;
+}
