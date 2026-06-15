@@ -85,3 +85,20 @@ filterBtns.forEach(btn => {
 
   });
 });
+const viewMoreBtn = document.getElementById("viewMoreBtn");
+const portfolioGallery = document.getElementById("portfolioGallery");
+const galleryFade = document.getElementById("galleryFade");
+
+if (viewMoreBtn && portfolioGallery && galleryFade) {
+  viewMoreBtn.addEventListener("click", () => {
+    portfolioGallery.classList.toggle("expanded");
+
+    if (portfolioGallery.classList.contains("expanded")) {
+      viewMoreBtn.textContent = "Show Less";
+      galleryFade.style.display = "none";
+    } else {
+      viewMoreBtn.textContent = "View More";
+      galleryFade.style.display = "block";
+    }
+  });
+}
