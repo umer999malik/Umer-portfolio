@@ -117,3 +117,22 @@ footer{position:relative;z-index:2;padding:30px 6vw;color:#888;border-top:1px so
   .hero-actions{display:grid}
   .thumb{border-radius:16px}
 }
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
+}
+
+.logo img{
+  width:42px;
+  height:42px;
+  border-radius:10px;
+  object-fit:cover;
+}
+
+.logo span{
+  font-family:'Anton',sans-serif;
+  font-size:32px;
+  color:#fff;
+}
