@@ -57,41 +57,41 @@ body{font-family:Inter,system-ui,sans-serif;background:#050505;color:#f5f5f5;ove
 
 .hero-thumbs{
   position:relative;
-  width:560px;
-  height:360px;
+  width:620px;
+  height:430px;
   margin-left:auto;
-  margin-top:-40px;
+  margin-top:-20px;
 }
 
 .hero-thumb{
   position:absolute;
-  width:230px;
+  width:300px;
   aspect-ratio:16/9;
   object-fit:cover;
   border:none;
-  border-radius:20px;
-  box-shadow:0 25px 70px rgba(0,0,0,.55);
+  border-radius:32px;
+  box-shadow:0 35px 90px rgba(0,0,0,.65);
   opacity:0;
 }
 
 .hero-thumb.t1{
-  top:10px;
-  left:40px;
-  transform:translateX(350px) rotate(-8deg);
+  top:20px;
+  left:20px;
+  transform:translateX(500px) rotate(-13deg);
   animation:heroT1 .8s ease forwards .1s;
 }
 
 .hero-thumb.t2{
-  top:10px;
-  left:295px;
-  transform:translateX(350px) rotate(-8deg);
+  top:205px;
+  left:90px;
+  transform:translateX(500px) rotate(-13deg);
   animation:heroT2 .8s ease forwards .25s;
 }
 
 .hero-thumb.t3{
-  top:175px;
-  left:165px;
-  transform:translateX(350px) rotate(-8deg);
+  top:115px;
+  left:340px;
+  transform:translateX(500px) rotate(-13deg);
   animation:heroT3 .8s ease forwards .4s;
 }
 
@@ -100,15 +100,15 @@ body{font-family:Inter,system-ui,sans-serif;background:#050505;color:#f5f5f5;ove
 }
 
 @keyframes heroT1{
-  to{opacity:1;transform:translateX(0) rotate(-8deg)}
+  to{opacity:1;transform:translateX(0) rotate(-13deg)}
 }
 
 @keyframes heroT2{
-  to{opacity:1;transform:translateX(0) rotate(8deg)}
+  to{opacity:1;transform:translateX(0) rotate(-13deg)}
 }
 
 @keyframes heroT3{
-  to{opacity:1;transform:translateX(0) rotate(-6deg)}
+  to{opacity:1;transform:translateX(0) rotate(-13deg)}
 }
 
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 22px;border-radius:999px;font-weight:900;text-decoration:none;transition:.25s ease}
