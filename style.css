@@ -293,3 +293,43 @@ footer{position:relative;z-index:2;padding:30px 6vw;color:#888;border-top:1px so
   transform-origin: center;
   margin-top: -100px;
 }
+.faq-container{
+  max-width:900px;
+  margin:50px auto 0;
+}
+
+.faq-item{
+  border:1px solid rgba(255,255,255,.08);
+  background:#111;
+  border-radius:18px;
+  margin-bottom:14px;
+  overflow:hidden;
+}
+
+.faq-question{
+  width:100%;
+  background:none;
+  border:none;
+  color:#fff;
+  text-align:left;
+  padding:24px;
+  font-size:18px;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.faq-answer{
+  max-height:0;
+  overflow:hidden;
+  transition:.3s ease;
+}
+
+.faq-answer p{
+  padding:0 24px 24px;
+  color:#bdbdbd;
+  line-height:1.7;
+}
+
+.faq-item.active .faq-answer{
+  max-height:200px;
+}
