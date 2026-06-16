@@ -57,48 +57,42 @@ body{font-family:Inter,system-ui,sans-serif;background:#050505;color:#f5f5f5;ove
 
 .hero-thumbs{
   position:relative;
-  height:540px;
-  min-width:760px;
-  margin-left:20px;
-  margin-top:-20px;
+  width:560px;
+  height:360px;
+  margin-left:auto;
+  margin-top:-40px;
 }
 
 .hero-thumb{
   position:absolute;
-  width:390px;
+  width:230px;
   aspect-ratio:16/9;
   object-fit:cover;
   border:none;
-  border-radius:36px;
-  box-shadow:0 35px 90px rgba(0,0,0,.65);
+  border-radius:20px;
+  box-shadow:0 25px 70px rgba(0,0,0,.55);
   opacity:0;
 }
 
 .hero-thumb.t1{
-  width:440px;
-  top:20px;
-  left:20px;
-  transform:translateX(650px) rotate(-13deg);
-  animation:heroT1 .9s ease forwards .1s;
-  z-index:3;
+  top:10px;
+  left:40px;
+  transform:translateX(350px) rotate(-8deg);
+  animation:heroT1 .8s ease forwards .1s;
 }
 
 .hero-thumb.t2{
-  width:430px;
-  top:285px;
-  left:95px;
-  transform:translateX(650px) rotate(-13deg);
-  animation:heroT2 .9s ease forwards .25s;
-  z-index:2;
+  top:10px;
+  left:295px;
+  transform:translateX(350px) rotate(8deg);
+  animation:heroT2 .8s ease forwards .25s;
 }
 
 .hero-thumb.t3{
-  width:390px;
-  top:190px;
-  left:430px;
-  transform:translateX(650px) rotate(-13deg);
-  animation:heroT3 .9s ease forwards .4s;
-  z-index:4;
+  top:175px;
+  left:165px;
+  transform:translateX(350px) rotate(-6deg);
+  animation:heroT3 .8s ease forwards .4s;
 }
 
 .hero-thumb.t4{
@@ -106,15 +100,15 @@ body{font-family:Inter,system-ui,sans-serif;background:#050505;color:#f5f5f5;ove
 }
 
 @keyframes heroT1{
-  to{opacity:1;transform:translateX(0) rotate(-13deg)}
+  to{opacity:1;transform:translateX(0) rotate(-8deg)}
 }
 
 @keyframes heroT2{
-  to{opacity:1;transform:translateX(0) rotate(-13deg)}
+  to{opacity:1;transform:translateX(0) rotate(8deg)}
 }
 
 @keyframes heroT3{
-  to{opacity:1;transform:translateX(0) rotate(-13deg)}
+  to{opacity:1;transform:translateX(0) rotate(-6deg)}
 }
 
 .btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 22px;border-radius:999px;font-weight:900;text-decoration:none;transition:.25s ease}
