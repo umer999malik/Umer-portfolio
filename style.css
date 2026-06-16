@@ -33,10 +33,11 @@ body{font-family:Inter,system-ui,sans-serif;background:#050505;color:#f5f5f5;ove
 
 .hero h1{
   font-family:'Bebas Neue', sans-serif;
-  font-size: clamp(50px, 5vw, 82px);
-  line-height: .95;
-  max-width: 500px;
-  text-align:left
+  font-size: clamp(72px, 7vw, 115px);
+  line-height: 0.9;
+  max-width: 700px;
+  text-align: left;
+  letter-spacing: 1px;
 }
 
 .subtext{
