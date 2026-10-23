@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -21,7 +22,10 @@
   <a class="skip-link" href="#work">Skip to work</a>
   <header class="site-header" id="top">
     <div class="header-inner wrap">
-      <a class="brand" href="#top" aria-label="Umer Thumbnail Designer home"><img class="brand-avatar" src="favicon.png" alt="Umer profile picture" width="30" height="30" decoding="async"><span>Umer Thumbnail Designer</span></a>
+      <a class="brand" href="#top" aria-label="Umer Thumbnail Designer home">
+        <img class="brand-avatar" src="favicon.png" alt="Umer profile picture" width="30" height="30" decoding="async">
+        <span>Umer Thumbnail Designer</span>
+      </a>
       <button class="menu-toggle" type="button" aria-label="Open navigation" aria-controls="site-nav" aria-expanded="false"><span></span><span></span></button>
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="#top" class="nav-active">Home</a>
@@ -57,9 +61,27 @@
     </section>
 
     <section class="proof wrap" aria-label="Portfolio highlights">
-      <div class="proof-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M2.6 12s3.4-5.9 9.4-5.9 9.4 5.9 9.4 5.9-3.4 5.9-9.4 5.9S2.6 12 2.6 12Z"/><circle cx="12" cy="12" r="2.8"/></svg><strong>1M+</strong><span>Generated views*</span></div>
-      <div class="proof-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="8" cy="9" r="1.5"/><path d="m4 18 5.6-5.6 3.5 3.3 2.3-2.4 5.6 5"/></svg><strong>18</strong><span>Portfolio pieces</span></div>
-      <div class="proof-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 17h6m-5 4h4m-6.6-8C5.3 11.7 4 9.9 4 7.6A8 8 0 0 1 20 7.6c0 2.3-1.3 4.1-3.4 5.4-.8.5-1.6 1.7-1.6 3H9c0-1.3-.8-2.5-1.6-3Z"/></svg><strong>One goal</strong><span>Make viewers curious</span></div>
+      <div class="proof-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M2.6 12s3.4-5.9 9.4-5.9 9.4 5.9 9.4 5.9-3.4 5.9-9.4 5.9S2.6 12 2.6 12Z"/>
+          <circle cx="12" cy="12" r="2.8"/>
+        </svg>
+        <strong>1M+</strong><span>Generated views*</span>
+      </div>
+      <div class="proof-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <rect x="3" y="4" width="18" height="16" rx="2"/>
+          <circle cx="8" cy="9" r="1.5"/>
+          <path d="m4 18 5.6-5.6 3.5 3.3 2.3-2.4 5.6 5"/>
+        </svg>
+        <strong>18</strong><span>Portfolio pieces</span>
+      </div>
+      <div class="proof-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+          <path d="M9 17h6m-5 4h4m-6.6-8C5.3 11.7 4 9.9 4 7.6A8 8 0 0 1 20 7.6c0 2.3-1.3 4.1-3.4 5.4-.8.5-1.6 1.7-1.6 3H9c0-1.3-.8-2.5-1.6-3Z"/>
+        </svg>
+        <strong>One goal</strong><span>Make viewers curious</span>
+      </div>
       <p class="proof-note">*Portfolio-reported figure.</p>
     </section>
 
@@ -76,10 +98,12 @@
         <button type="button" class="filter" data-filter="finance" aria-pressed="false">Finance</button>
       </div>
       <div class="portfolio-grid" id="portfolio-grid" aria-live="polite"></div>
-      <div class="gallery-actions"><button id="show-more" class="button button-outline" type="button">View all thumbnails <span aria-hidden="true">↓</span></button></div>
+      <div class="gallery-actions">
+        <button id="show-more" class="button button-outline" type="button">View all thumbnails <span aria-hidden="true">↓</span></button>
+      </div>
     </section>
 
-    <!-- Only additional content section: before/after thumbnail redesigns -->
+    <!-- Before / After redesign section -->
     <section class="section redesigns-section" id="redesigns" aria-labelledby="redesigns-title">
       <div class="wrap">
         <div class="section-intro centered" data-reveal>
@@ -87,10 +111,16 @@
           <h2 id="redesigns-title">See the <em>difference.</em></h2>
           <p>Original thumbnails reimagined with a clearer concept, stronger storytelling, and a more clickable visual.</p>
         </div>
+
         <div class="redesign-grid">
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">01 / 07</span><span class="redesign-creator">Jando</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">01 / 07</span>
+              <span class="redesign-creator">Jando</span>
+            </div>
             <div class="redesign-comparison">
+              <button class="redesign-image" type="button" aria-label="Open before image: Roundabout Challenge" data-redesign-image="jando-before.webp" data-redesign-caption="Before — Roundabout Challenge">
                 <img src="jando-before.webp" alt="Original thumbnail for Roundabout Challenge" loading="lazy" width="640" height="360">
                 <span class="redesign-image-label">BEFORE</span>
               </button>
@@ -101,8 +131,12 @@
             </div>
             <h3>Roundabout Challenge<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">02 / 07</span><span class="redesign-creator">John Casterline</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">02 / 07</span>
+              <span class="redesign-creator">John Casterline</span>
+            </div>
             <div class="redesign-comparison">
               <button class="redesign-image" type="button" aria-label="Open before image: TikTok Calculator" data-redesign-image="john-casterline-before.webp" data-redesign-caption="Before — TikTok Calculator">
                 <img src="john-casterline-before.webp" alt="Original thumbnail for TikTok Calculator" loading="lazy" width="640" height="360">
@@ -115,8 +149,12 @@
             </div>
             <h3>TikTok Calculator<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">03 / 07</span><span class="redesign-creator">Jay Fourty</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">03 / 07</span>
+              <span class="redesign-creator">Jay Fourty</span>
+            </div>
             <div class="redesign-comparison">
               <button class="redesign-image" type="button" aria-label="Open before image: Survival Challenge" data-redesign-image="jay-fourty-before.webp" data-redesign-caption="Before — Survival Challenge">
                 <img src="jay-fourty-before.webp" alt="Original thumbnail for Survival Challenge" loading="lazy" width="640" height="360">
@@ -129,8 +167,12 @@
             </div>
             <h3>Survival Challenge<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">04 / 07</span><span class="redesign-creator">GroovyGavin</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">04 / 07</span>
+              <span class="redesign-creator">GroovyGavin</span>
+            </div>
             <div class="redesign-comparison">
               <button class="redesign-image" type="button" aria-label="Open before image: Abandoned Tunnel" data-redesign-image="groovygavin-before.webp" data-redesign-caption="Before — Abandoned Tunnel">
                 <img src="groovygavin-before.webp" alt="Original thumbnail for Abandoned Tunnel" loading="lazy" width="640" height="360">
@@ -143,8 +185,12 @@
             </div>
             <h3>Abandoned Tunnel<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">05 / 07</span><span class="redesign-creator">Lamine Yamal</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">05 / 07</span>
+              <span class="redesign-creator">Lamine Yamal</span>
+            </div>
             <div class="redesign-comparison">
               <button class="redesign-image" type="button" aria-label="Open before image: Football Q&amp;A" data-redesign-image="lamine-yamal-before.webp" data-redesign-caption="Before — Football Q&amp;A">
                 <img src="lamine-yamal-before.webp" alt="Original thumbnail for Football Q&amp;A" loading="lazy" width="640" height="360">
@@ -157,8 +203,12 @@
             </div>
             <h3>Football Q&amp;A<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">06 / 07</span><span class="redesign-creator">Food Challenge</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">06 / 07</span>
+              <span class="redesign-creator">Food Challenge</span>
+            </div>
             <div class="redesign-comparison">
               <button class="redesign-image" type="button" aria-label="Open before image: Food Tasting" data-redesign-image="food-challenge-before.webp" data-redesign-caption="Before — Food Tasting">
                 <img src="food-challenge-before.webp" alt="Original thumbnail for Food Tasting" loading="lazy" width="640" height="360">
@@ -171,20 +221,25 @@
             </div>
             <h3>Food Tasting<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
           <article class="redesign-card">
-            <div class="redesign-card-top"><span class="redesign-number">07 / 07</span><span class="redesign-creator">Brisket David</span></div>
+            <div class="redesign-card-top">
+              <span class="redesign-number">07 / 07</span>
+              <span class="redesign-creator">Brisket David</span>
+            </div>
             <div class="redesign-comparison">
-              <button class="redesign-image" type="button" aria-label="Open before image: Steak Comparison" data-redesign-image="assets/redesigns/brisket-david-before.webp" data-redesign-caption="Before — Steak Comparison">
-                <img src="assets/redesigns/brisket-david-before.webp" alt="Original thumbnail for Steak Comparison" loading="lazy" width="640" height="360">
+              <button class="redesign-image" type="button" aria-label="Open before image: Steak Comparison" data-redesign-image="brisket-david-before.webp" data-redesign-caption="Before — Steak Comparison">
+                <img src="brisket-david-before.webp" alt="Original thumbnail for Steak Comparison" loading="lazy" width="640" height="360">
                 <span class="redesign-image-label">BEFORE</span>
               </button>
-              <button class="redesign-image redesign-image-after" type="button" aria-label="Open redesigned image: Steak Comparison" data-redesign-image="assets/redesigns/brisket-david-after.webp" data-redesign-caption="After — Steak Comparison">
-                <img src="assets/redesigns/brisket-david-after.webp" alt="Umer's redesigned thumbnail for Steak Comparison" loading="lazy" width="640" height="360">
+              <button class="redesign-image redesign-image-after" type="button" aria-label="Open redesigned image: Steak Comparison" data-redesign-image="brisket-david-after.webp" data-redesign-caption="After — Steak Comparison">
+                <img src="brisket-david-after.webp" alt="Umer's redesigned thumbnail for Steak Comparison" loading="lazy" width="640" height="360">
                 <span class="redesign-image-label">AFTER</span>
               </button>
             </div>
             <h3>Steak Comparison<span class="redesign-card-arrow" aria-hidden="true">↗</span></h3>
           </article>
+
         </div>
         <p class="redesign-disclaimer">Personal redesign studies — original thumbnails are shown for comparison.</p>
       </div>
@@ -200,18 +255,28 @@
         <div class="process-grid">
           <article class="process-card" data-reveal>
             <div class="process-heading"><span>01</span><span class="process-arrow">↗</span></div>
-            <div class="process-art concept-art" aria-hidden="true"><div class="concept-sheet"><span class="tiny-label">BRIEF / 01</span><div class="concept-title">What's the<br><b>hook?</b></div><div class="concept-lines"><i></i><i></i><i></i></div><span class="concept-asterisk">✳</span></div></div>
-            <h3>Understand the story.</h3><p>We find the angle, emotion, and curiosity that make your video stand out.</p>
+            <div class="process-art concept-art" aria-hidden="true">
+              <div class="concept-sheet">
+                <span class="tiny-label">BRIEF / 01</span>
+                <div class="concept-title">What's the<br><b>hook?</b></div>
+                <div class="concept-lines"><i></i><i></i><i></i></div>
+                <span class="concept-asterisk">✳</span>
+              </div>
+            </div>
+            <h3>Understand the story.</h3>
+            <p>We find the angle, emotion, and curiosity that make your video stand out.</p>
           </article>
           <article class="process-card" data-reveal>
             <div class="process-heading"><span>02</span><span class="process-arrow">↗</span></div>
             <div class="process-art"><img src="sketch.jpg" alt="An early thumbnail sketch" loading="lazy"></div>
-            <h3>Build the concept.</h3><p>I explore composition, hierarchy, and the details that make the idea land.</p>
+            <h3>Build the concept.</h3>
+            <p>I explore composition, hierarchy, and the details that make the idea land.</p>
           </article>
           <article class="process-card" data-reveal>
             <div class="process-heading"><span>03</span><span class="process-arrow">↗</span></div>
             <div class="process-art"><img src="final.jpg" alt="A final designed thumbnail" loading="lazy"></div>
-            <h3>Make it unmissable.</h3><p>Polished compositing, color, and typography bring the final thumbnail to life.</p>
+            <h3>Make it unmissable.</h3>
+            <p>Polished compositing, color, and typography bring the final thumbnail to life.</p>
           </article>
         </div>
       </div>
@@ -228,7 +293,11 @@
         <h2 id="about-title">Design first.<br><em>Click second.</em></h2>
         <p>I'm Umer, a thumbnail designer focused on one simple thing: making your content impossible to overlook.</p>
         <p>I combine visual storytelling, strong composition, and an understanding of what makes viewers curious. Every detail has a purpose—nothing is there just to fill space.</p>
-        <div class="about-skills"><span>Art direction</span><span>Compositing</span><span>Visual storytelling</span></div>
+        <div class="about-skills">
+          <span>Art direction</span>
+          <span>Compositing</span>
+          <span>Visual storytelling</span>
+        </div>
         <a class="text-link" href="https://x.com/UmerThumbn1s" target="_blank" rel="noopener noreferrer">Let's build something together <span aria-hidden="true">↗</span></a>
       </div>
     </section>
@@ -241,9 +310,21 @@
           <p>My approach is simple: every element should earn its place.</p>
         </div>
         <div class="philosophy-grid">
-          <div class="philosophy-item"><span class="philosophy-number">01 /</span><h3>Clarity</h3><p>One clear idea is stronger than ten competing for attention.</p></div>
-          <div class="philosophy-item"><span class="philosophy-number">02 /</span><h3>Curiosity</h3><p>Give the viewer just enough to want the rest of the story.</p></div>
-          <div class="philosophy-item"><span class="philosophy-number">03 /</span><h3>Craft</h3><p>Thoughtful lighting, color, and composition do the heavy lifting.</p></div>
+          <div class="philosophy-item">
+            <span class="philosophy-number">01 /</span>
+            <h3>Clarity</h3>
+            <p>One clear idea is stronger than ten competing for attention.</p>
+          </div>
+          <div class="philosophy-item">
+            <span class="philosophy-number">02 /</span>
+            <h3>Curiosity</h3>
+            <p>Give the viewer just enough to want the rest of the story.</p>
+          </div>
+          <div class="philosophy-item">
+            <span class="philosophy-number">03 /</span>
+            <h3>Craft</h3>
+            <p>Thoughtful lighting, color, and composition do the heavy lifting.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -255,11 +336,26 @@
         <p>A few things you might want to know before we work together.</p>
       </div>
       <div class="faq-list">
-        <details><summary>What kinds of thumbnails do you design?<span class="plus" aria-hidden="true"></span></summary><p>I design for education, finance, gaming, tech, entertainment, challenges, and other creator-led content.</p></details>
-        <details><summary>How long does a thumbnail take?<span class="plus" aria-hidden="true"></span></summary><p>Most projects take 24–48 hours, depending on complexity and the current workload. I'll confirm timing before starting.</p></details>
-        <details><summary>Do you offer revisions?<span class="plus" aria-hidden="true"></span></summary><p>Yes. Revisions are part of making sure the final design fits the idea and your channel's visual direction.</p></details>
-        <details><summary>How much do you charge?<span class="plus" aria-hidden="true"></span></summary><p>Pricing depends on the style, scope, and volume. Send me your brief and I'll share a quote.</p></details>
-        <details><summary>How do we get started?<span class="plus" aria-hidden="true"></span></summary><p>Message me with your title, video idea, references, and any brand assets you have. We'll discuss the direction before I design.</p></details>
+        <details>
+          <summary>What kinds of thumbnails do you design?<span class="plus" aria-hidden="true"></span></summary>
+          <p>I design for education, finance, gaming, tech, entertainment, challenges, and other creator-led content.</p>
+        </details>
+        <details>
+          <summary>How long does a thumbnail take?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Most projects take 24–48 hours, depending on complexity and the current workload. I'll confirm timing before starting.</p>
+        </details>
+        <details>
+          <summary>Do you offer revisions?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Yes. Revisions are part of making sure the final design fits the idea and your channel's visual direction.</p>
+        </details>
+        <details>
+          <summary>How much do you charge?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Pricing depends on the style, scope, and volume. Send me your brief and I'll share a quote.</p>
+        </details>
+        <details>
+          <summary>How do we get started?<span class="plus" aria-hidden="true"></span></summary>
+          <p>Message me with your title, video idea, references, and any brand assets you have. We'll discuss the direction before I design.</p>
+        </details>
       </div>
     </section>
 
@@ -275,11 +371,39 @@
   </main>
 
   <footer class="footer wrap">
-    <div class="footer-top"><div><a class="brand" href="#top"><img class="brand-avatar" src="favicon.png" alt="Umer profile picture" width="30" height="30" decoding="async"><span>Umer Thumbnail Designer</span></a><p>Designing the click before it happens.</p></div><div class="footer-links"><a href="#work">Work</a><a href="#redesigns">Redesigns</a><a href="#process">Process</a><a href="#about">About</a><a href="#faq">FAQ</a><a href="https://x.com/UmerThumbn1s" target="_blank" rel="noopener noreferrer">X / Twitter ↗</a></div></div>
-    <div class="footer-bottom"><span>© <span id="year">2026</span> Umer. All rights reserved.</span><a href="#top">Back to top ↑</a></div>
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="#top">
+          <img class="brand-avatar" src="favicon.png" alt="Umer profile picture" width="30" height="30" decoding="async">
+          <span>Umer Thumbnail Designer</span>
+        </a>
+        <p>Designing the click before it happens.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#work">Work</a>
+        <a href="#redesigns">Redesigns</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://x.com/UmerThumbn1s" target="_blank" rel="noopener noreferrer">X / Twitter ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Umer. All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
   </footer>
 
-  <dialog class="lightbox" id="lightbox" aria-label="Thumbnail preview"><button type="button" class="lightbox-close" aria-label="Close preview">×</button><button type="button" class="lightbox-arrow left" aria-label="Previous thumbnail">‹</button><div class="lightbox-media"><img src="" alt="Expanded thumbnail preview"><p class="lightbox-caption"></p></div><button type="button" class="lightbox-arrow right" aria-label="Next thumbnail">›</button></dialog>
+  <dialog class="lightbox" id="lightbox" aria-label="Thumbnail preview">
+    <button type="button" class="lightbox-close" aria-label="Close preview">×</button>
+    <button type="button" class="lightbox-arrow left" aria-label="Previous thumbnail">‹</button>
+    <div class="lightbox-media">
+      <img src="" alt="Expanded thumbnail preview">
+      <p class="lightbox-caption"></p>
+    </div>
+    <button type="button" class="lightbox-arrow right" aria-label="Next thumbnail">›</button>
+  </dialog>
+
   <script src="script.js"></script>
 </body>
 </html>
